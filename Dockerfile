@@ -11,7 +11,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-FROM quay.io/prometheus/busybox:latest
+FROM busybox:1.27-glibc
 
 LABEL maintainer="joe-pll"
 

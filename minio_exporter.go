@@ -28,7 +28,7 @@ import (
 	"github.com/prometheus/common/version"
 
 	minio "github.com/minio/minio-go"
-	"github.com/minio/minio/pkg/madmin"
+	"github.com/honestica/minio/pkg/madmin"
 	"strconv"
 )
 
