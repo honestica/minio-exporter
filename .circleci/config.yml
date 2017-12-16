@@ -30,7 +30,3 @@ workflows:
   master-flow:
     jobs:
       - build-push:
-          filters:
-            branches:
-              only:
-                - master
