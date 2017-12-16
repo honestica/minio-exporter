@@ -19,7 +19,7 @@ jobs:
       - run:
           name: docker build
           command: |
-            docker build -t honestica/minio-exporter:$CIRCLE_BRANCH-$CIRCLE_BUILD_NUM
+            docker build -t honestica/minio-exporter:$CIRCLE_BRANCH-$CIRCLE_BUILD_NUM .
       - run:
           name: docker push
           command: |
