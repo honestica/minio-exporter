@@ -15,7 +15,7 @@ FROM busybox:1.27-glibc
 
 LABEL maintainer="joe-pll"
 
-COPY minio_exporter /bin/minio_exporter
+COPY minio-exporter /bin/minio-exporter
 
 EXPOSE 9290
-ENTRYPOINT [ "/bin/minio_exporter" ]
+ENTRYPOINT [ "/bin/minio-exporter" ]
