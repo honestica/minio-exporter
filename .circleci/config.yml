@@ -15,7 +15,7 @@ jobs:
       - run:
           name: build
           command: |
-            go build
+            go build -o minio-exporter
       - run:
           name: docker build
           command: |
